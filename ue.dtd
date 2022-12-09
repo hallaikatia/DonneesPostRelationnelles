@@ -9,8 +9,8 @@
 <!ELEMENT nom      (#PCDATA)>
 <!ELEMENT identifiant     (#PCDATA)>
 <!ELEMENT nbrCredits     (#PCDATA)>
-<!ELEMENT resume      (#PCDATA|p|b|i|tt|li|lu)*>
-<!ELEMENT plan     (#PCDATA|p|b|i|tt|li|ul)*>
+<!ELEMENT resume      (#PCDATA|p|i|tt|li|lu)*>
+<!ELEMENT plan     (#PCDATA|p|i|tt|li)*>
 <!ELEMENT lieu     (#PCDATA)>
 <!ELEMENT ref-intervenant  (#PCDATA)>
 <!ATTLIST  ref-intervenant  ref  IDREF  #REQUIRED>
@@ -30,7 +30,7 @@
 
 <!ELEMENT parcours (responsables+, nom, description,debouches+,ref-semestre+)>
 <!ELEMENT responsables      (#PCDATA)>
-<!ELEMENT description     (#PCDATA|p|b|i|tt|li|lu)*>
+<!ELEMENT description     (#PCDATA|p|i|tt|li|lu)*>
 <!ELEMENT debouches      (#PCDATA)>
 <!ELEMENT ref-semestre      (#PCDATA)>
 <!ATTLIST  ref-semestre  ref  IDREF  #REQUIRED>
