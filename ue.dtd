@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<!ENTITY campusLuminy "Luminy">
+
+
+<!ELEMENT master (intervenant*, unite+, parcours+, semestre+)>
+<!ELEMENT unite (nom, identifiant, nbrCredits, resume, plan, lieu, ref-intervenant+)>
+<!ATTLIST unite  clef  ID  #IMPLIED>
+<!ELEMENT nom      (#PCDATA)>
+<!ELEMENT identifiant     (#PCDATA)>
+<!ELEMENT nbrCredits     (#PCDATA)>
+<!ELEMENT resume      (#PCDATA|p|b|i|tt|li|lu)*>
+<!ELEMENT plan     (#PCDATA|p|b|i|tt|li|ul)*>
+<!ELEMENT lieu     (#PCDATA)>
+<!ELEMENT ref-intervenant  (#PCDATA)>
+<!ATTLIST  ref-intervenant  ref  IDREF  #REQUIRED>
+<!ELEMENT p     (#PCDATA)>
+<!ELEMENT i     (#PCDATA)>
+<!ELEMENT li     (#PCDATA)>
+<!ELEMENT lu     (#PCDATA|li)*>
+<!ELEMENT tt     (#PCDATA)>
+
+
+<!ELEMENT intervenant (id, nom, adresseMail, adresseSite)>
+<!ATTLIST intervenant  id  ID  #REQUIRED>
+<!ELEMENT id     (#PCDATA)>
+<!ELEMENT adresseMail     (#PCDATA)>
+<!ELEMENT adresseSite      (#PCDATA)>
+
+
+<!ELEMENT parcours (responsables+, nom, description,debouches+,ref-semestre+)>
+<!ELEMENT responsables      (#PCDATA)>
+<!ELEMENT description     (#PCDATA|p|b|i|tt|li|lu)*>
+<!ELEMENT debouches      (#PCDATA)>
+<!ELEMENT ref-semestre      (#PCDATA)>
+<!ATTLIST  ref-semestre  ref  IDREF  #REQUIRED>
+
+
+<!ELEMENT semestre (blocs+)>
+<!ATTLIST semestre  id  ID  #REQUIRED>
+<!ELEMENT blocs (role,ref-unite+)>
+<!ELEMENT ref-unite  (#PCDATA)>
+<!ATTLIST ref-unite ref IDREF  #REQUIRED>
+<!ELEMENT role     (#PCDATA)>
+

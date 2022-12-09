@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE master SYSTEM "ue.dtd"
+[
+<!ENTITY campusLuminy "Luminy">
+<!ENTITY domaine "@etu.uni-amu.fr">
+]
+>
+<?xml-stylesheet type="text/css" href="ue.css"?>
+
+<master>
+
+	<intervenant id="JEAN-LUC_MASSAT">
+		<id>1</id>
+		<nom>Jean luc MASSAT</nom>
+		<adresseMail> jean-luv.MASSAT&domaine; </adresseMail>
+		<adresseSite> https:\\hihi.com </adresseSite>
+	</intervenant>
+		
+	<intervenant id="KEVIN_PERROT">
+		<id>2</id>
+		<nom>Kevin PERROT</nom>
+		<adresseMail> Kevin.PERROT&domaine; </adresseMail>
+		<adresseSite> https:\\Kevin-perrot.com </adresseSite>
+	</intervenant>
+	
+	<intervenant id="REMI_MORIN">
+		<id>3</id>
+		<nom>Remi MORIN</nom>
+		<adresseMail>Remi.MORIN&domaine;</adresseMail>
+		<adresseSite>https:\\Remi-Morin.com</adresseSite>
+	</intervenant>
+	
+	<intervenant id="DJAMEL_HABBET">
+		<id>4</id>
+		<nom>Djamel HABBET</nom>
+		<adresseMail>Djamel.HABBET&domaine;</adresseMail>
+		<adresseSite>https:\\Djamel-Habbet.com</adresseSite>
+	</intervenant>
+	
+	<intervenant id="PHILIPPE_JEGOU">
+		<id>5</id>
+		<nom>Philippe JEGOU</nom>
+		<adresseMail>Philippe.JEGOU&domaine;</adresseMail>
+		<adresseSite>https:\\Philippe-JEGOU.com</adresseSite>
+	</intervenant>
+	
+	<intervenant id="OMAR_BOUCELMA">
+		<id>6</id>
+		<nom>Omar BOUCELMA</nom>
+		<adresseMail>Omar.BOUCELMA&domaine;</adresseMail>
+		<adresseSite>https:\\Omar.BOUCELMA.com</adresseSite>
+	</intervenant>
+	
+	<intervenant id="MAAMAR_HAMRI">
+		<id>7</id>
+		<nom>Maamar el amine HAMRI</nom>
+		<adresseMail>Maamar-el-amine.HAMRI&domaine;</adresseMail>
+		<adresseSite>https:\\Maamar-el-amine.HAMRI.com</adresseSite>
+	</intervenant>
+	
+	<intervenant id="ALAIN-DAL_MOLIN">
+		<id>8</id>
+		<nom>Alain Dal MOLIN</nom>
+		<adresseMail>Alain-dal.MOLIN&domaine;</adresseMail>
+		<adresseSite>https:\\Alain-dal.MOLIN.HAMRI.com</adresseSite>
+	</intervenant>
+	
+	<intervenant id="PORECCA_ANTONIO">
+		<id>9</id>
+		<nom>Porecca ANTONIO</nom>
+		<adresseMail>Porecca.ANTONIO&domaine;</adresseMail>
+		<adresseSite>https:\\Porecca.ANTONIO.com</adresseSite>
+	</intervenant>
+	
+	
+	
+	
+	
+	
+	<unite clef="DPR">
+		<nom>Données Post Relationnels</nom>
+		<identifiant> DPR </identifiant>
+		<nbrCredits> 3 </nbrCredits>
+		<resume><p>Cette UE est génial</p></resume>
+		<plan><ul>GENIAL TITRE<li>GENIAL sous-titre1</li><li>genial sous-titre2</li></ul></plan>
+		<lieu> &campusLuminy; </lieu>
+		<ref-intervenant ref="JEAN-LUC_MASSAT" />
+	</unite>
+	
+	<unite clef="GL">
+		<nom> Genie logiciel </nom>
+		<identifiant> GL </identifiant>
+		<nbrCredits>6</nbrCredits>
+		<resume> tata </resume>
+		<plan> titi </plan>
+		<lieu> &campusLuminy; </lieu>
+		<ref-intervenant ref="JEAN-LUC_MASSAT" />
+		<ref-intervenant ref="KEVIN_PERROT" />
+		<ref-intervenant ref="MAAMAR_HAMRI" />
+	</unite>
+	
+	<unite clef="COMPLEXITE">
+		<nom>Complexité</nom>
+		<identifiant>Complexité</identifiant>
+		<nbrCredits>6</nbrCredits>
+		<resume> tata </resume>
+		<plan> titi </plan>
+		<lieu> &campusLuminy; </lieu>
+		<ref-intervenant ref="PHILIPPE_JEGOU" />
+	</unite>
+	
+	<unite clef="POC">
+		<nom> Programmation objet concurrente </nom>
+		<identifiant>POC</identifiant>
+		<nbrCredits> 3 </nbrCredits>
+		<resume> bla bla </resume>
+		<plan> bla bla </plan>
+		<lieu> &campusLuminy; </lieu>
+		<ref-intervenant ref="JEAN-LUC_MASSAT" />
+	</unite>
+	
+	<unite clef="ANGLAIS">
+		<nom>Anglais</nom>
+		<identifiant>ANGLAIS</identifiant>
+		<nbrCredits>2</nbrCredits>
+		<resume> bla bla </resume>
+		<plan> bla bla </plan>
+		<lieu> &campusLuminy; </lieu>
+		<ref-intervenant ref="ALAIN-DAL_MOLIN" />
+	</unite>
+	
+	<unite clef="COM">
+		<nom>COMMUNICATION</nom>
+		<identifiant>com</identifiant>
+		<nbrCredits>2</nbrCredits>
+		<resume> bla bla </resume>
+		<plan> bla bla </plan>
+		<lieu> &campusLuminy; </lieu>
+		<ref-intervenant ref="ALAIN-DAL_MOLIN" />
+	</unite>
+	
+	<unite clef="ID">
+		<nom>Integration des données</nom>
+		<identifiant>ID</identifiant>
+		<nbrCredits>2</nbrCredits>
+		<resume> bla bla </resume>
+		<plan> bla bla </plan>
+		<lieu> &campusLuminy; </lieu>
+		<ref-intervenant ref="OMAR_BOUCELMA" />
+	</unite>
+	
+	<unite clef="PF">
+		<nom>Programmation fonctionnel</nom>
+		<identifiant>PF</identifiant>
+		<nbrCredits>3</nbrCredits>
+		<resume> bla bla </resume>
+		<plan> bla bla </plan>
+		<lieu> &campusLuminy; </lieu>
+		<ref-intervenant ref="PORECCA_ANTONIO" />
+	</unite>
+
+
+
+
+	<parcours>
+		<responsables>Djamal HABET</responsables>
+		<responsables>Sana SELLAMI</responsables>
+		<nom>SID</nom>
+		<description></description>
+		<debouches>Data analyst</debouches>
+		<debouches>(Big) data engineer</debouches>
+		<debouches>Data manager</debouches>
+		<debouches>BI engineer</debouches>
+		<debouches>Data steward</debouches>
+		<debouches>Data miner</debouches>
+		<debouches>Data scientist</debouches>
+		<debouches>Architecte data</debouches>
+		<debouches>Ingénieur R et D</debouches>
+		<debouches>Chercheur et/ou enseignant/chercheur (si poursuite en thèse)</debouches>
+		<ref-semestre ref="S1-TRONC_COMMUN"/>
+		<ref-semestre ref="S2-SID"/>
+	</parcours>	
+	
+	<parcours>
+		<responsables>Jean luc MASSAT</responsables>
+		<responsables>Nicolas HOAREAU</responsables>
+		<nom>IDL</nom>
+		<description></description>
+		<debouches>ingénieur étude et développement</debouches>
+		<debouches>ingénieur test et validation ou ingénieur intégration</debouches>
+		<debouches>consultant technique</debouches>
+		<debouches>consultant fonctionnel</debouches>
+		<debouches>assistant chef de projet en informatique</debouches>
+		<debouches>expert technique ou fonctionnel</debouches>
+		<debouches>architecte logiciel</debouches>
+		<debouches>Ingénieur R et D</debouches>
+		<ref-semestre ref="S1-TRONC_COMMUN"/>
+		<ref-semestre ref="S2-IDL"/>
+	</parcours>
+	
+	
+	
+	
+	
+	<semestre id="S1-TRONC_COMMUN">
+		<blocs>
+			<role>Obligatoire</role>
+			<ref-unite ref="GL"/>
+			<ref-unite ref="ANGLAIS"/>
+			<ref-unite ref="POC"/>
+			<ref-unite ref="COMPLEXITE"/>	
+		</blocs>
+	</semestre>	
+	
+	<semestre id="S2-SID">
+		<blocs>
+			<role>Obligatoire</role>
+			<ref-unite ref="DPR"/>
+			<ref-unite ref="COM"/>
+			<ref-unite ref="ID"/>
+		</blocs>
+		<blocs>
+			<role>Optionnel</role>			
+			<ref-unite ref="PF"/>
+		</blocs>
+	</semestre>
+		
+	<semestre id="S2-IDL">
+		<blocs>
+			<role>Obligatoire</role>
+			<ref-unite ref="DPR"/>
+			<ref-unite ref="COM"/>
+		</blocs>
+		<blocs>
+			<role>Optionnel</role>
+			<ref-unite ref="ID"/>
+			<ref-unite ref="PF"/>
+		</blocs>
+	</semestre>
+	
+</master>
